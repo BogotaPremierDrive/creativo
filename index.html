@@ -970,6 +970,348 @@ const RESTRICCIONES = [
 ];
 
 /* ----------------------------------------------------
+   12 RETOS COMBINADOS DE ALTO IMPACTO (CURADOS)
+---------------------------------------------------- */
+const RETOS_COMBINADOS = [
+  {
+    id: "aguacates_futbol",
+    icono: "🥑⚽",
+    nombre: "1. Aguacates + Sublimación Textil + Mercadeo de Guerrilla + Fútbol",
+    publico: "Hinchas y fanáticos del fútbol (Generación Z & Millennials) que valoran el streetwear y la cultura de estadio",
+    categoria: "Indumentaria deportiva técnica y activaciones BTL de mercadeo",
+    restriccion: "Combinar armónicamente: Aguacates + Sublimaciones textiles térmicas + Mercadeo de guerrilla + Pasión futbolera",
+    ideaSugerida: "Camisetas oficiales de fútbol con estampado por sublimación full-print que simula la textura biológica y degradados de la piel del aguacate Hass, vendidas en 'Guacamole Trucks' en las afueras de los estadios.",
+    brandName: "HASS F.C. · ORO VERDE WEAR",
+    tagline: "La pasión de la tribuna sublimada en la energía del oro verde",
+    carta: "El Hueso / Balón de Oro Verde",
+    conexiones: "1) El aguacate madura bajo presión y tiempo, exactamente como un equipo de fútbol construye su victoria en el torneo. 2) La sublimación fusiona la tinta a 200°C a nivel molecular, igual que la pasión futbolera une a una hinchada bajo un mismo cántico de tribuna.",
+    archetype: "creador_rebelde",
+    styleMovement: "pop_bauhaus",
+    baseColor: "#1E3A1E",
+    accentColor: "#7CB342",
+    yellowColor: "#E6C229",
+    scamper: {
+      s: "Sustituir patrocinadores tradicionales de casas de apuestas por sellos agrícolas locales y tipografías orgánicas.",
+      c: "Combinar la camiseta deportiva de secado rápido con una experiencia gastronómica en 'Guacamole Trucks' afuera del estadio.",
+      a: "Adaptar la estrategia de 'drops' sorpresa de streetwear al fútbol lanzando camisetas numeradas antes de cada clásico.",
+      m: "Magnificar la textura microscópica celular de la piel Hass convirtiéndola en el patrón geométrico del uniforme.",
+      p: "Poner en otro uso los retazos de poliéster sublimado para crear bolsas de tela reutilizables para los hinchas.",
+      e: "Eliminar intermediarios de tiendas comerciales con prensas térmicas de sublimación en vivo en la fan zone.",
+      r: "Invertir el ritual del partido: personalizar la camiseta en 60 segundos en el estadio justo antes de ingresar."
+    },
+    simParams: { pattern: "avocado-cells", name: "AGUACATE", number: "10" }
+  },
+  {
+    id: "cafe_ciclismo",
+    icono: "☕🚴",
+    nombre: "2. Café de Especialidad + Serigrafía Reflectiva + Pop-Ups Rodantes + Ciclismo",
+    publico: "Ciclistas de ruta y gravel que recorren senderos andinos y puertos de montaña al amanecer",
+    categoria: "Accesorios de hidratación térmica, indumentaria ciclista y parches de reabastecimiento",
+    restriccion: "Combinar armónicamente: Granos de café de altura + Serigrafía reflectiva nocturna + Pop-ups rodantes + Cultura ciclista",
+    ideaSugerida: "Chalecos cortavientos con serigrafía reflectiva inspirada en ramas de cafetales, entregados junto a un shot de cold-brew en estaciones móviles en el puerto de montaña.",
+    brandName: "KAFÉ VELOZ · Cumbres & Cadencia",
+    tagline: "La cafeína que enciende las piernas en el puerto de montaña",
+    carta: "El Grano Tostado y la Cadencia de Pedaleo",
+    conexiones: "1) La curva de tueste del café requiere precisión térmica exacta, igual que el ciclista dosifica sus vatios en la subida. 2) La tinta reflectiva reacciona ante la luz en la oscuridad, del mismo modo que el aroma del café despierta al pelotón al alba.",
+    archetype: "explorador",
+    styleMovement: "minimalismo_suizo",
+    baseColor: "#3B2219",
+    accentColor: "#D97706",
+    yellowColor: "#FDE68A",
+    scamper: {
+      s: "Sustituir los geles energéticos químicos por sachets de miel de café y pulpa natural.",
+      c: "Combinar el portacaramañola con un termo de extracción en frío para descensos fríos.",
+      a: "Adaptar la estética de los sacos de fique cafetero a tejidos técnicos transpirables.",
+      m: "Magnificar la señalización reflectiva de seguridad en la espalda del ciclista.",
+      p: "Poner en otro uso la borra del café como compuesto exfoliante para lavar manos con grasa de cadena.",
+      e: "Eliminar paradas estáticas: café servido al paso en 'Musette Bags' estilo pelotón del Tour.",
+      r: "Invertir la ruta: pedalear de noche para coronar el pico justo cuando sale el sol y abre la barra de café."
+    },
+    simParams: { pattern: "stripes", name: "CADENCIA", number: "07" }
+  },
+  {
+    id: "cacao_skate",
+    icono: "🍫🛹",
+    nombre: "3. Cacao Ancestral + Grabado Láser + Batallas Callejeras + Skateboarding",
+    publico: "Jóvenes skaters, ilustradores y creadores de contenido de cultura urbana",
+    categoria: "Tablas personalizadas con lija antideslizante, indumentaria oversize y barras energéticas",
+    restriccion: "Combinar armónicamente: Chocolate amargo artesanal + Grabado láser en madera de lija + Eventos bajo puentes + Estética skate",
+    ideaSugerida: "Lijas de skateboard grabadas con láser con motivos de mazorcas de cacao ancestral, vendidas en pop-ups callejeros donde cada compra incluye barras energéticas de chocolate al 85%.",
+    brandName: "CACAO DROP · Ancestral Skate",
+    tagline: "Fricción de asfalto con la fuerza oscura del cacao puro",
+    carta: "La Mazorca de Cacao y el Deck de Maple Canadiense",
+    conexiones: "1) El secado al sol de la semilla de cacao concentra su vigor amargo, idéntico a la disciplina callejera de repetir un truco cien veces hasta aterrizarlo. 2) El grabado láser calcina la madera superficialmente con precisión quirúrgica, como las marcas de lija en los tenis del skater.",
+    archetype: "rebelde",
+    styleMovement: "brutalismo",
+    baseColor: "#271711",
+    accentColor: "#EA580C",
+    yellowColor: "#FBBF24",
+    scamper: {
+      s: "Sustituir la cera de parafina común para barandas por ceras formuladas con manteca de cacao no comestible.",
+      c: "Combinar torneos de 'Best Trick' con catas a ciegas de porcentajes de cacao bajo puentes urbanos.",
+      a: "Adaptar la textura agrietada del chocolate partido a la lija antideslizante de las tablas.",
+      m: "Magnificar el aroma del chocolate en los empaques textiles que liberan fragancia con el calor corporal.",
+      p: "Poner en otro uso la cáscara de cacao prensada como material biodegradable para empacar rodamientos.",
+      e: "Eliminar intermediarios de tiendas tradicionales: venta exclusiva en baúles de camionetas modificadas.",
+      r: "Invertir la premiación: los que caen con más estilo reciben dotación de chocolate para sanar moretones."
+    },
+    simParams: { pattern: "geometric", name: "GRIND", number: "85" }
+  },
+  {
+    id: "miel_running",
+    icono: "🍯🏃",
+    nombre: "4. Miel Silvestre + Tintas Glow-in-Dark + Rutas Secretas QR + Running Nocturno",
+    publico: "Corredores urbanos y maratonistas nocturnos de tribus y crews de running",
+    categoria: "Geles energéticos en envases compostables y cortavientos bioluminiscentes",
+    restriccion: "Combinar armónicamente: Apicultura y panales de miel + Tintas fotoluminiscentes nocturnas + Retos con código QR + Cultura runner",
+    ideaSugerida: "Geles deportivos de miel cruda en envases que se disuelven en agua, acompañados de camisetas con patrones hexagonales que brillan en la oscuridad bajo las luces de la ciudad.",
+    brandName: "HONEY RUSH · Glow Runners Club",
+    tagline: "Energía pura de colmena que enciende la noche urbana",
+    carta: "El Panal Hexagonal y la Mente de Enjambre del Pelotón",
+    conexiones: "1) Las abejas coordinan trayectorias milimétricas en enjambre, igual que un club de running nocturno sincroniza su ritmo cardiaco en avenidas solitarias. 2) La fotoluminiscencia absorbe luz diurna para devolverla en la penumbra, igual que los músculos absorben carbohidratos de miel para rendir en la maratón.",
+    archetype: "heroe",
+    styleMovement: "futurismo",
+    baseColor: "#111827",
+    accentColor: "#F59E0B",
+    yellowColor: "#10B981",
+    scamper: {
+      s: "Sustituir los geles químicos con conservantes por miel de abejas nativas con polen energizante.",
+      c: "Combinar la camiseta deportiva reflectiva con códigos QR que desbloquean la siguiente estación de hidratación.",
+      a: "Adaptar la arquitectura del panal de abejas para diseñar la estructura de ventilación de la tela.",
+      m: "Magnificar los detalles fosforescentes para que el pelotón parezca un río de luz en movimiento.",
+      p: "Poner en otro uso el residuo de cera de abejas para impermeabilizar tenis contra la lluvia nocturna.",
+      e: "Eliminar los arcos de meta metálicos: la meta es una proyección lumínica en una fachada histórica.",
+      r: "Invertir los horarios de carrera: comenzar a las 3:00 a.m. para cruzar la meta al primer rayo de sol."
+    },
+    simParams: { pattern: "geometric", name: "RUNNER", number: "42" }
+  },
+  {
+    id: "queso_jazz",
+    icono: "🧀🎷",
+    nombre: "5. Queso Madurado + Prensado en Acetato + Catas Clandestinas + Club de Jazz",
+    publico: "Amantes de la música en vinilo, melómanos y coleccionistas audiófilos de sonido cálido",
+    categoria: "Empaques fonográficos comestibles, tablas de degustación de autor y acústica sensorial",
+    restriccion: "Combinar armónicamente: Queso Paipa de denominación de origen + Prensado térmico en acetato + Sesiones secretas a ciegas + Club de jazz",
+    ideaSugerida: "Ruedas de queso artesanal empacadas en carátulas de vinilo de 12 pulgadas con códigos auditivos que sincronizan una sesión de jazz maridada con cada bocado.",
+    brandName: "BLUE NOTE CHEESE · Vinyl Ferments",
+    tagline: "Notas de maduración lenta en 33 revoluciones por minuto",
+    carta: "El Surco del Vinilo y la Corteza Madurada del Queso",
+    conexiones: "1) El queso madura meses en cueva ganando notas complejas, de la misma manera que una improvisación de jazz madura en el silencio antes del solo. 2) La aguja recorre los micro-surcos del disco extrayendo sonido análogo, como el paladar recorre los cristales de calcio del queso añejo.",
+    archetype: "sabio",
+    styleMovement: "art_deco",
+    baseColor: "#1E1B4B",
+    accentColor: "#D97706",
+    yellowColor: "#FEF08A",
+    scamper: {
+      s: "Sustituir el empaque plástico termoencogible por fundas de cartón reciclado con arte tipográfico de jazz.",
+      c: "Combinar cada porción de queso con una pista acústica masterizada específicamente para esa textura.",
+      a: "Adaptar el lenguaje de afinación musical para clasificar los meses de maduración (Do = joven, Si = reserva).",
+      m: "Magnificar el momento del corte del queso convirtiéndolo en un ritual sonoro amplificado con micrófonos de contacto.",
+      p: "Poner en otro uso las virutas de corteza como aromatizante ahumado para coctelería clásica.",
+      e: "Eliminar la luz artificial en las catas: sesiones completamente a oscuras para agudizar oído y gusto.",
+      r: "Invertir la experiencia: el músico improvisa su solo basándose en el queso que está probando el público."
+    },
+    simParams: { pattern: "minimal", name: "COLTRANE", number: "33" }
+  },
+  {
+    id: "flores_drift",
+    icono: "🌸🏎️",
+    nombre: "6. Flores Exóticas + Impresión UV Automotriz + Pits Nocturnos + Drift Motor",
+    publico: "Entusiastas del automovilismo deportivo, customización de autos y cultura motor JDM",
+    categoria: "Car wraps automotrices, ambientadores botánicos de alta gama y chaquetas de pits",
+    restriccion: "Combinar armónicamente: Orquídeas andinas + Impresión UV texturizada en vinilo + Pits de personalización en 60s + Cultura tuning",
+    ideaSugerida: "Vinilos adhesivos con texturas microcelulares de pétalos de orquídea resistentes a la fricción y calor del motor, instalados en boxes callejeros durante carreras nocturnas de exhibición.",
+    brandName: "ORQUÍDEA DRIFT · Botanical Pit Club",
+    tagline: "La fragilidad de la flora sometida al humo y la tracción del asfalto",
+    carta: "El Pétalo de Orquídea y el Neumático Quemado",
+    conexiones: "1) La flor se abre paso en la humedad de la selva con patrones biológicos feroces, igual que el piloto traza la curva cerrada derrapando sobre el borde. 2) La impresión UV fija la tinta con luz ultravioleta instantánea, emulando la fotosíntesis botánica acelerada a 7000 RPM.",
+    archetype: "rebelde",
+    styleMovement: "cyberpunk",
+    baseColor: "#18181B",
+    accentColor: "#EC4899",
+    yellowColor: "#A855F7",
+    scamper: {
+      s: "Sustituir las calcomanías automotrices comunes por vinilos UV texturizados que imitan la piel de los pétalos.",
+      c: "Combinar las chaquetas de pits ignífugas con bordados botánicos fosforescentes.",
+      a: "Adaptar la aerodinámica de los alerones inspirándose en la caída libre de las hojas tropicales.",
+      m: "Magnificar el aroma en cabina con extractos botánicos de alta resistencia térmica que no marean al piloto.",
+      p: "Poner en otro uso los neumáticos gastados como suelas para calzado técnico de mecánicos.",
+      e: "Eliminar los tiempos muertos de espera con pits de personalización rápida en menos de 3 minutos.",
+      r: "Invertir la estética tradicional del automovilismo: en vez de llamaradas de fuego, gráficos botánicos feroces."
+    },
+    simParams: { pattern: "geometric", name: "TURBO", number: "86" }
+  },
+  {
+    id: "mango_gaming",
+    icono: "🥭🎮",
+    nombre: "7. Mango Biche con Sal + Sublimación Microfibra + Stream BTL + e-Sports",
+    publico: "Gamers universitarios, streamers y comunidades de torneos competitivos de e-sports",
+    categoria: "Snacks nootrópicos para concentración extrema y periféricos / mousepads textiles de alta precisión",
+    restriccion: "Combinar armónicamente: Mango biche ácido con sal marina + Sublimación HD en microfibra + Retos en stream de 60s + Cultura gamer",
+    ideaSugerida: "Mousepads gigantes sublimados con arte psicodélico de frutas ácidas que incluyen gomitas de mango biche electrolíticas para evitar la fatiga mental durante torneos.",
+    brandName: "BICHE GLITCH · High Reflex Snack & Wear",
+    tagline: "El choque ácido que dispara tus reflejos en el último milisegundo",
+    carta: "La Acidez del Mango Verde y el Lag de 1 Milisegundo",
+    conexiones: "1) El mordisco al mango verde con sal genera una descarga salival y neuronal inmediata, igual al estado de alerta máxima que exige esquivar un ataque en e-sports. 2) La microfibra sublimada desliza el mouse con cero fricción, tal como la navaja corta la pulpa verde del fruto.",
+    archetype: "creador_rebelde",
+    styleMovement: "pop_bauhaus",
+    baseColor: "#064E3B",
+    accentColor: "#84CC16",
+    yellowColor: "#FACC15",
+    scamper: {
+      s: "Sustituir las bebidas energizantes artificiales azucaradas por jugos de mango biche con sales electrolíticas.",
+      c: "Combinar la alfombrilla del teclado con compartimento hermético para snacks sin que ensucie los switches.",
+      a: "Adaptar los 'drops' de skins de videojuegos a indumentaria textil física sublimada en tirajes numerados.",
+      m: "Magnificar el factor sensorial ácido en los streams mediante castigos picantes cuando se pierde una partida.",
+      p: "Poner en otro uso la fibra residual del mango para fabricar carcasas biodegradables de mandos.",
+      e: "Eliminar las latas de aluminio generando sobres compostables en polvo listos para diluir con agua fría.",
+      r: "Invertir el patrocinio: torneos barriales donde los premios son becas y setups armados por la comunidad."
+    },
+    simParams: { pattern: "avocado-cells", name: "GLITCH", number: "99" }
+  },
+  {
+    id: "pan_boxeo",
+    icono: "🥖🥊",
+    nombre: "8. Masa Madre Fermentada + Bordado Textil + Pesajes Populares + Boxeo",
+    publico: "Practicantes de boxeo, artes marciales mixtas y entrenamiento funcional de barrio",
+    categoria: "Vendajes deportivos elásticos, batas de combate personalizadas y nutrición de recuperación",
+    restriccion: "Combinar armónicamente: Fermentación de masa madre + Bordado en tela de toalla + Pesajes en esquinas populares + Cultura del ring",
+    ideaSugerida: "Batas de calentamiento bordadas con hilos dorados de espigas de trigo, entregadas junto a panes densos de centeno con mantequilla de frutos secos tras el pesaje oficial.",
+    brandName: "FERMENTO RING · Masa, Sudor & Golpe",
+    tagline: "El pan se amasa con los puños; el boxeador se forja con el tiempo",
+    carta: "El Levado Lento y los 12 Rounds de Resistencia",
+    conexiones: "1) El pan de masa madre no se apura: requiere reposo, tensión y fermento vivo, idéntico al campamento de entrenamiento de un peleador antes del título. 2) El hilo del bordado entra y sale penetrando la tela pesada, como los ganchos al hígado que rompen la guardia.",
+    archetype: "heroe",
+    styleMovement: "constructivismo",
+    baseColor: "#451A03",
+    accentColor: "#DC2626",
+    yellowColor: "#FDE68A",
+    scamper: {
+      s: "Sustituir suplementos ultraprocesados por barras de carbohidratos complejos de masa madre deshidratada.",
+      c: "Combinar las batas de satén con telas absorbentes de toalla bordadas para secar el sudor entre asaltos.",
+      a: "Adaptar el reloj de campana del ring para marcar los tiempos exactos de horneado en panaderías aliadas.",
+      m: "Magnificar el peso y gramaje de las prendas para ofrecer abrigo térmico extremo durante el recorte de peso.",
+      p: "Poner en otro uso los costales de harina de trigo reforzados como sacos de golpeo en gimnasios populares.",
+      e: "Eliminar el clasismo de los eventos de boxeo de gala: llevar los pesajes a plazas públicas y panaderías.",
+      r: "Invertir la dieta post-pelea: celebrar la victoria con un festín de hogazas recién horneadas con el equipo."
+    },
+    simParams: { pattern: "stripes", name: "KNOCKOUT", number: "12" }
+  },
+  {
+    id: "cerveza_montana",
+    icono: "🍺⛰️",
+    nombre: "9. Cerveza IPA Artesanal + Esmaltado a Fuego + Geolocalización + Montañismo",
+    publico: "Montañistas, campistas y aventureros de páramos, cumbres y senderos agrestes",
+    categoria: "Cantimploras térmicas en acero esmaltado, parches térmicos para mochilas y refugios efímeros",
+    restriccion: "Combinar armónicamente: Lúpulo artesanal + Pirograbado y esmaltado a fuego + Búsqueda de tesoros con GPS + Pasión outdoor",
+    ideaSugerida: "Tazas de peltre esmaltadas a fuego con cartas topográficas grabadas que otorgan coordenadas GPS para canjear una cerveza de altura en el campamento base.",
+    brandName: "LÚPULO SUMMIT · High Alpine Craft",
+    tagline: "El amargor del páramo conquistado sorbo a sorbo en la cumbre",
+    carta: "El Cono de Lúpulo y la Cumbre Nevada",
+    conexiones: "1) El lúpulo salvaje crece en laderas escarpadas soportando frío extremo, tal como el montañista asciende desafiando el viento blanco. 2) El esmaltado a fuego vitrifica el acero a 800°C volviéndolo indestructible contra las rocas y el granizo.",
+    archetype: "explorador",
+    styleMovement: "bauhaus",
+    baseColor: "#1E293B",
+    accentColor: "#059669",
+    yellowColor: "#F59E0B",
+    scamper: {
+      s: "Sustituir las latas frágiles de cerveza por growlers de acero peltre indestructible que se pueden poner al fuego.",
+      c: "Combinar la etiqueta de la botella con coordenadas geodésicas reales de refugios de emergencia en montaña.",
+      a: "Adaptar los mosquetones de escalada como destapadores multifuncionales integrados en las mochilas.",
+      m: "Magnificar el aroma a pino y resina mediante lúpulos cultivados en alturas superiores a los 2.500 msnm.",
+      p: "Poner en otro uso las latas vacías como estufas de supervivencia ultralivianas a alcohol.",
+      e: "Eliminar el transporte de vidrio pesado en senderos naturales con envases rígidos retornables de por vida.",
+      r: "Invertir la recompensa: no tomar la cerveza en el bar de la ciudad, sino como premio al tocar la cima."
+    },
+    simParams: { pattern: "minimal", name: "SUMMIT", number: "01" }
+  },
+  {
+    id: "frutos_tattoo",
+    icono: "🫐✒️",
+    nombre: "10. Frutos Rojos + Tintas Botánicas Hidrotransferibles + Flash Days + Body Art",
+    publico: "Coleccionistas de tatuajes, artistas visuales y usuarios de cosmética botánica vegana",
+    categoria: "Bálsamos botánicos cicatrizantes, parches dérmicos ilustrados y apparel con arte corporal",
+    restriccion: "Combinar armónicamente: Arándanos silvestres antioxidantes + Tintas botánicas al agua + Flash days itinerantes en galerías + Cultura tattoo",
+    ideaSugerida: "Parches de segunda piel infusionados con extracto de frutos rojos cicatrizantes que exhiben ilustraciones botánicas desvanecientes durante las ferias de arte.",
+    brandName: "BERRY INK · Botanical Flash Lab",
+    tagline: "Pigmentos vivos de la tierra tatuados en la memoria de la piel",
+    carta: "La Espina de la Mora y la Aguja de Tatuar",
+    conexiones: "1) El zumo de mora tiñe indeleblemente los dedos en el bosque, al igual que la aguja deposita el pigmento en la dermis viva. 2) Los flavonoides antioxidantes del fruto regeneran el tejido celular tras el trauma de la sesión de aguja.",
+    archetype: "creador",
+    styleMovement: "expresionismo",
+    baseColor: "#3B0764",
+    accentColor: "#E11D48",
+    yellowColor: "#F472B6",
+    scamper: {
+      s: "Sustituir las cremas cicatrizantes con derivados de petróleo por mantecas de frutos rojos prensados en frío.",
+      c: "Combinar la sesión de tatuaje con una exposición de acuarelas pintadas con los mismos pigmentos vegetales.",
+      a: "Adaptar los parches médicos hidrocoloides imprimiéndoles arte botánico visible mientras sana la herida.",
+      m: "Magnificar la pureza de los ingredientes mostrando en el envase la finca orgánica exacta de donde salieron.",
+      p: "Poner en otro uso los pigmentos residuales para teñir camisas de lino en tonos violáceos únicos.",
+      e: "Eliminar el dolor innecesario con tónicos desensibilizantes formulados con extractos botánicos locales.",
+      r: "Invertir el proceso de flash day: el cliente escoge primero el aroma del bálsamo y luego el diseño del arte."
+    },
+    simParams: { pattern: "avocado-cells", name: "TATTOO", number: "13" }
+  },
+  {
+    id: "maiz_freestyle",
+    icono: "🌽🎤",
+    nombre: "11. Maíz Ancestral + Termotransferencia Grafiti + Batallas de Plaza + Rap Freestyle",
+    publico: "Comunidad de hip-hop, poetas urbanos y seguidores de batallas de rimas callejeras",
+    categoria: "Prendas streetwear con tipografías grafiti, gorras con visera estampada y comida urbana",
+    restriccion: "Combinar armónicamente: Variedades de maíz criollo + Termotransferencia de grafiti + Batallas donde la entrada es una mazorca + Cultura hip-hop",
+    ideaSugerida: "Prendas de algodón pesado estampadas en calor con rimas ganadoras en el momento de la batalla, financiadas mediante un banco comunitario de semillas de maíz criollo.",
+    brandName: "MAÍZ CYPHER · Rimas, Fuego & Semilla",
+    tagline: "La raíz milenaria del maíz gritada con el bombo y la caja del beat",
+    carta: "El Grano de Maíz que Revienta en Palomita y el Flow que Explota en el Mic",
+    conexiones: "1) El grano de maíz soporta la presión del calor hasta reventar en explosión blanca, igual que el freestyler acumula tensión hasta soltar el punchline decisivo. 2) La termotransferencia fija los caracteres tipográficos del grafiti con calor a 180°C, como el asfalto caliente de la plaza.",
+    archetype: "rebelde",
+    styleMovement: "constructivismo",
+    baseColor: "#1C1917",
+    accentColor: "#EA580C",
+    yellowColor: "#EAB308",
+    scamper: {
+      s: "Sustituir las entradas monetarias de las batallas por donación de granos de maíz criollo para huertas comunitarias.",
+      c: "Combinar el rap de plaza con puestos de comida tradicional (mazorcas asadas y arepas de choclo al calor de leña).",
+      a: "Adaptar las técnicas de termotransferencia de camisetas para estampar vinilos de tela en tiempo real.",
+      m: "Magnificar el sonido acústico del cypher prescindiendo de plantas eléctricas mediante beatbox orgánico.",
+      p: "Poner en otro uso las tusas del maíz como mangos ergonómicos para marcadores de grafiti.",
+      e: "Eliminar la toxicidad de las batallas: penalizar rimas discriminatorias y premiar la oratoria comunitaria.",
+      r: "Invertir la jerarquía: los jueces son los abuelos agricultores y los campeones del barrio."
+    },
+    simParams: { pattern: "geometric", name: "CYPHER", number: "04" }
+  },
+  {
+    id: "uchuva_cine",
+    icono: "🍈📷",
+    nombre: "12. Uchuva Dorada + Cianotipia Orgánica + Fotomaratón 24h + Fotografía 35mm",
+    publico: "Fotógrafos analógicos, directores de arte y cineastas independientes que valoran lo artesanal",
+    categoria: "Correas de cámara en cuero vegetal de fruta, estuches de rollos 35mm y tónicos antioxidantes",
+    restriccion: "Combinar armónicamente: Uchuva en capacho dorado + Cianotipia con tintes naturales + Maratón de 24h sin pantallas + Pasión por el celuloide",
+    ideaSugerida: "Estuches de cuero vegetal obtenido de biomasa de uchuva que incluyen papel fotosensible tratado con emulsión de cáscara para revelar negativos al sol durante el rodaje.",
+    brandName: "GOLDEN FRAME · 35mm Uchuva Lab",
+    tagline: "La luz solar fijada en celuloide bajo el capacho dorado de la uchuva",
+    carta: "El Capacho Protector de la Uchuva y el Chasis Hermético del Rollo 35mm",
+    conexiones: "1) El capacho vegetal protege el fruto dorado de los rayos ultravioleta hasta su madurez, idéntico al cartucho metálico que resguarda la emulsión fotosensible de la luz antes del disparo. 2) La cianotipia orgánica utiliza sales de hierro y jugos cítricos expuestos al sol para estampar imágenes en azul de Prusia.",
+    archetype: "creador",
+    styleMovement: "bauhaus",
+    baseColor: "#0C4A6E",
+    accentColor: "#F59E0B",
+    yellowColor: "#FEF08A",
+    scamper: {
+      s: "Sustituir los químicos de revelado de metol e hidroquinona por fórmulas ecológicas con ácido de uchuva y café.",
+      c: "Combinar la cámara analógica con un capacho tejido a mano que protege el lente de caídas e intemperie.",
+      a: "Adaptar el secado de fruta al deshidratado y estabilizado de negativos fotográficos en exteriores.",
+      m: "Magnificar el valor de la foto única: solo 24 disparos por fotógrafo sin previsualización digital.",
+      p: "Poner en otro uso las cáscaras de uchuva para generar cuero vegetal flexible para correas de cámara.",
+      e: "Eliminar smartphones y pantallas durante las 24 horas de la maratón visual de rodaje.",
+      r: "Invertir el laboratorio: revelar las fotos en una carpa móvil instalada en medio del cultivo de uchuvas."
+    },
+    simParams: { pattern: "minimal", name: "ANALOG", number: "24" }
+  }
+];
+
+/* ----------------------------------------------------
    DATOS Y CONFIGURACIÓN DEL CASO DE ESTUDIO
 ---------------------------------------------------- */
 const CASE_STUDY_DATA = {
@@ -1085,11 +1427,32 @@ let state = {
    FUNCIONES AUXILIARES DE COLOR Y PALETA
 ---------------------------------------------------- */
 function getPalette(baseHex) {
+  const isHass = state.reto.restriccion && state.reto.restriccion.toLowerCase().includes("aguacate");
   return [
-    { hex: state.baseColor, name: "Verde Corteza Hass", role: "Color Base / Estructura", desc: "Denota resistencia, profundidad y la textura de la piel exterior." },
-    { hex: state.accentColor, name: "Verde Pulpa Fresca", role: "Contraste / Vitalidad", desc: "Aporta dinamismo deportivo, frescura botánica y agilidad visual." },
-    { hex: state.yellowColor, name: "Amarillo Cremoso / Hueso", role: "Acento / Energía", desc: "Connota nutrición, iluminación y el calor del núcleo del fruto." },
-    { hex: "#0F172A", name: "Azul Pizarra Noche", role: "Fondo Técnico", desc: "Equilibra los tonos orgánicos con una base textil sobria y profesional." }
+    { 
+      hex: state.baseColor, 
+      name: isHass ? "Verde Corteza Hass" : "Tono Base Estructural", 
+      role: "Color Base / Estructura", 
+      desc: isHass ? "Denota resistencia, profundidad y la textura de la piel exterior." : "Estructura tonal dominante del concepto visual y soporte de diseño." 
+    },
+    { 
+      hex: state.accentColor, 
+      name: isHass ? "Verde Pulpa Fresca" : "Tono Acento Dinámico", 
+      role: "Contraste / Vitalidad", 
+      desc: isHass ? "Aporta dinamismo deportivo, frescura botánica y agilidad visual." : "Genera contraste de alta vibración, agilidad y foco de atención visual." 
+    },
+    { 
+      hex: state.yellowColor, 
+      name: isHass ? "Amarillo Cremoso / Hueso" : "Luz / Energía Cálida", 
+      role: "Acento / Energía", 
+      desc: isHass ? "Connota nutrición, iluminación y el calor del núcleo del fruto." : "Puntos de luminosidad, calidez técnica, remate estético e iluminación." 
+    },
+    { 
+      hex: "#0F172A", 
+      name: "Azul Pizarra Noche", 
+      role: "Fondo Técnico", 
+      desc: "Equilibra los tonos orgánicos con una base textil sobria y profesional." 
+    }
   ];
 }
 
@@ -1200,20 +1563,36 @@ function renderStage() {
           <div>
             <h3 style="color:#FFF; font-size:1.15rem; font-weight:700;">El Reto Creativo Asignado</h3>
             <p style="font-size:0.82rem; color:var(--text-muted); margin-top:2px;">
-              Genera una combinación aleatoria para desafiar al equipo o carga el caso central de Aguacates & Fútbol.
+              Elige entre los <strong>12 retos combinados de alto impacto</strong>, genera uno aleatorio o carga el caso oficial.
             </p>
           </div>
           <div style="display:flex; gap:8px; flex-wrap:wrap;">
             <button class="btn btn-gold btn-sm" id="btn-random-reto" type="button" style="font-weight:800; box-shadow:0 0 14px rgba(245, 158, 11, 0.35);">
-              🎲 Generar Reto Aleatorio
+              🎲 Reto Combinado Aleatorio
             </button>
             <button class="btn btn-secondary btn-sm" id="btn-custom-reto" type="button">
               🥑 Caso: Aguacates & Fútbol
             </button>
           </div>
         </div>
+
+        <!-- Selector Desplegable de los 12 Retos Combinados -->
+        <div style="background:rgba(7, 11, 16, 0.7); border:1px solid var(--border); border-radius:var(--radius-md); padding:12px 16px; margin-bottom:14px;">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px; flex-wrap:wrap; gap:6px;">
+            <label for="select-reto-combinado" class="form-label" style="font-size:0.82rem; margin:0; color:var(--hass-lime); font-weight:700;">
+              🎯 Banco de Retos Combinados Multidisciplinarios (12 Opciones Preparadas):
+            </label>
+            <span style="font-size:0.72rem; color:var(--text-muted);">Al seleccionar uno, el prompt y el taller se adaptan en vivo</span>
+          </div>
+          <select id="select-reto-combinado" style="padding:10px 12px; font-size:0.88rem; background:var(--bg-card); color:#FFF; border:1.5px solid var(--border); border-radius:var(--radius-sm); cursor:pointer;">
+            <option value="" disabled ${!state.reto.restriccion ? 'selected' : ''}>-- Elige uno de los 12 retos combinados de alto impacto --</option>
+            ${RETOS_COMBINADOS.map(r => `
+              <option value="${r.id}" ${state.reto.restriccion === r.restriccion ? 'selected' : ''}>${r.icono} ${r.nombre}</option>
+            `).join("")}
+          </select>
+        </div>
         
-        <div class="grid-3" style="margin-top:12px;">
+        <div class="grid-3" style="margin-top:10px;">
           <div style="background:var(--bg-deep); border:1px solid var(--border); border-radius:var(--radius-md); padding:14px;">
             <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
               <span class="badge-tag">Público Objetivo</span>
@@ -1692,8 +2071,11 @@ function renderStage() {
       <div class="card" style="border:1.5px solid #3B82F6; background:linear-gradient(180deg, rgba(37, 99, 235, 0.08) 0%, var(--bg-card) 100%);">
         <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px; flex-wrap:wrap; gap:10px;">
           <div>
-            <span class="badge-tag" style="background:#2563EB; color:#FFF;">PROMPT MAESTRO DE INGENIERÍA</span>
-            <h3 style="color:#FFF; font-size:1.2rem; margin-top:4px;">Prompt para Desarrollar la Página Web Interactiva</h3>
+            <div style="display:flex; align-items:center; gap:8px; margin-bottom:4px;">
+              <span class="badge-tag" style="background:#2563EB; color:#FFF;">PROMPT MAESTRO DE INGENIERÍA</span>
+              <span class="badge-tag" style="background:rgba(16, 185, 129, 0.2); color:#34D399; border:1px solid rgba(16,185,129,0.4);">✓ Sincronizado en Vivo</span>
+            </div>
+            <h3 style="color:#FFF; font-size:1.2rem; margin-top:2px;">Prompt para Desarrollar la Página Web Interactiva</h3>
           </div>
           <button class="btn btn-primary" id="btn-copy-prompt">
             <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
@@ -1702,7 +2084,7 @@ function renderStage() {
         </div>
         
         <p style="font-size:0.86rem; color:var(--text-secondary); margin-bottom:12px;">
-          Copia y pega este prompt directamente en cualquier modelo de Inteligencia Artificial (ChatGPT, Claude, Gemini) para generar de inmediato la aplicación web interactiva HTML/CSS/JS que demuestra visual y funcionalmente la combinación de <strong>Aguacates, Sublimaciones, Mercadeo y Fútbol</strong>.
+          Este prompt se construye <strong>automática y dinámicamente</strong> con cada dato, idea, respuesta SCAMPER, paleta de color y arquetipo que ingresaste en las fases anteriores. Cópialo y pégalo en una IA (ChatGPT, Claude, Gemini) para generar la web interactiva resultante.
         </p>
 
         <div class="prompt-display-box">
@@ -1711,7 +2093,7 @@ function renderStage() {
 
         <div class="prompt-actions-bar">
           <span style="font-size:0.8rem; color:var(--text-muted);">
-            Listo para usar en producción · Diseñado con especificaciones completas de UI, SVG interactivo y storytelling.
+            Listo para usar en producción · Actualizado reactivamente con las variables del ejercicio.
           </span>
           <button class="btn btn-secondary btn-sm" id="btn-download-json">
             Descargar Ficha en JSON
@@ -1726,68 +2108,188 @@ function renderStage() {
 }
 
 /* ----------------------------------------------------
-   GENERACIÓN DEL PROMPT MAESTRO
+   GENERACIÓN DINÁMICA DEL PROMPT MAESTRO
+   (Se recalcula con todos los datos del formulario)
 ---------------------------------------------------- */
 function generateMasterPrompt() {
   const pal = getPalette(state.baseColor);
-  const arqObj = ARQUETIPOS.find(a => a.k === state.archetype) || { n: "Creador & Rebelde" };
-  const movObj = MOVIMIENTOS.find(m => m.k === state.styleMovement) || { n: "Pop Art + Bauhaus" };
+  const arqObj = ARQUETIPOS.find(a => a.k === state.archetype) || { n: "Creador & Rebelde", d: "Innovación disruptiva y estética de vanguardia" };
+  const movObj = MOVIMIENTOS.find(m => m.k === state.styleMovement) || { n: "Pop Art + Bauhaus Deportiva", d: "Geometría funcional y colores de alto contraste" };
+
+  const equipoStr = state.equipo ? state.equipo.trim() : "Equipo de Innovación Creativa";
+  const publicoStr = state.reto.publico ? state.reto.publico.trim() : "Hinchas y fanáticos del fútbol (Generación Z & Millennials) que valoran el streetwear y la cultura de estadio";
+  const categoriaStr = state.reto.categoria ? state.reto.categoria.trim() : "Indumentaria deportiva técnica y activaciones BTL de mercadeo";
+  const restriccionStr = state.reto.restriccion ? state.reto.restriccion.trim() : "Combinar armónicamente: Aguacates + Sublimaciones textiles + Mercadeo experiencial + Pasión futbolera";
+  
+  const ideaElegidaStr = state.chosenIdea 
+    ? state.chosenIdea.trim() 
+    : (state.ideas.find(i => i && i.trim() !== "") || "Prendas oficiales con estampado por sublimación de alta gama y personalización en vivo en el estadio").trim();
+
+  // Matriz SCAMPER Dinámica
+  const scamperLabels = {
+    s: "Sustituir (S)",
+    c: "Combinar (C)",
+    a: "Adaptar (A)",
+    m: "Modificar / Magnificar (M)",
+    p: "Poner en otro uso (P)",
+    e: "Eliminar (E)",
+    r: "Reordenar / Invertir (R)"
+  };
+  const scamperItems = [];
+  for (const [k, label] of Object.entries(scamperLabels)) {
+    if (state.scamper[k] && state.scamper[k].trim() !== "") {
+      scamperItems.push(`   * ${label}: ${state.scamper[k].trim()}`);
+    }
+  }
+  const scamperBlock = scamperItems.length > 0
+    ? scamperItems.join("\n")
+    : "   * Personalización ágil bajo demanda, combinación de técnicas textiles e innovación en materiales y canales.";
+
+  // Sinéctica y Pensamiento Lateral
+  const metaStr = state.carta ? state.carta.trim() : "El Fruto Botánico y la Prensa Térmica";
+  const conexionesStr = state.conexiones 
+    ? state.conexiones.trim() 
+    : "Conexión semiótica entre la resiliencia del fruto, la termofijación textil indeleble y la pasión colectiva de la hinchada.";
+
+  const brandStr = state.brandName ? state.brandName.trim() : "HASS F.C. · ORO VERDE WEAR";
+  const taglineStr = state.tagline ? state.tagline.trim() : "La pasión de la tribuna sublimada en la energía del oro verde";
+  const conclusionStr = state.conclusion 
+    ? state.conclusion.trim() 
+    : "La integración metodológica de Wallas, SCAMPER y teoría del arte demuestra que la creatividad estructurada genera productos comerciales disruptivos.";
+
+  // Parámetros de Personalización del Prototipo
+  const dorsalNum = state.simParams.number || "10";
+  const playerName = state.simParams.name || "AGUACATE";
+  const patternType = state.simParams.pattern || "avocado-cells";
 
   return `Actúa como un Diseñador Web Senior y Director Creativo de Vanguardia especializado en Branding, Marketing de Experiencias y Desarrollo Front-End interactivo.
 
 TU TAREA:
-Desarrolla en un ÚNICO ARCHIVO HTML autocontenido (con CSS moderno embebido en <style> y JavaScript vanilla interactivo en <script>) una página web interactiva y visualmente deslumbrante que demuestre la fusión de cuatro conceptos derivados de un taller de innovación creativa:
-1. AGUACATES (morfología botánica, textura celular de la piel Hass, superalimento, frescura y 'oro verde').
-2. SUBLIMACIONES (estampado térmico textil indeleble a 200°C en microfibra deportiva, alta fidelidad de degradados CMYK).
-3. MERCADEO (estrategia de guerrilla, drops exclusivos de streetwear, activación de fan engagement y ritual de estadio).
-4. FÚTBOL (pasión de hinchada, cultura de tribuna, camiseta oficial como símbolo de pertenencia e identidad).
+Desarrolla en un ÚNICO ARCHIVO HTML autocontenido (con CSS moderno embebido en <style> y JavaScript vanilla interactivo en <script>) una página web interactiva, moderna y visualmente deslumbrante que materialice con absoluta fidelidad las especificaciones y características configuradas en el Taller de Desarrollo Creativo e Innovación.
 
-DATOS ESTRATÉGICOS DEL CONCEPTO A DESARROLLAR:
-- Nombre de la Marca / Drop: "${state.brandName || "HASS F.C. · ORO VERDE WEAR"}"
-- Propuesta de Valor / Tagline: "${state.tagline || "La pasión de la tribuna sublimada en la energía del oro verde"}"
-- Arquetipo de Marca: ${arqObj.n} (Disruptivo, audaz, auténtico y creador de una nueva cultura).
-- Movimiento Artístico Referente: ${movObj.n} (Geometría ergonómica deportiva fusionada con colores vivos e ilustraciones botánicas de alto contraste).
-- Paleta Cromática Exacta:
-  * Verde Base Corteza Hass: ${pal[0].hex}
-  * Verde Pulpa Fresca: ${pal[1].hex}
-  * Amarillo Núcleo/Semilla: ${pal[2].hex}
-  * Acento Oscuro Fondo Técnico: ${pal[3].hex}
+============================================================
+1. METADATOS DEL PROYECTO & RETO ASIGNADO
+============================================================
+- Equipo Creador: "${equipoStr}"
+- Concepto / Nombre de Marca: "${brandStr}"
+- Propuesta de Valor / Tagline: "${taglineStr}"
+- Público Objetivo: ${publicoStr}
+- Categoría de Mercado: ${categoriaStr}
+- Restricción Creativa Provocadora: ${restriccionStr}
+- Idea Central Ganadora (Chispa): "${ideaElegidaStr}"
 
-REQUERIMIENTOS FUNCIONALES DE LA PÁGINA INTERACTIVA:
-1. HERO SECTION DE IMPACTO:
-   - Título tipográfico potente con estética de club deportivo de autor.
-   - Badge animado que resalte: "COLECCIÓN CÁPSULA: ORO VERDE EN LA TRIBUNA".
-   - Botón interactivo "Personaliza tu Jersey en Vivo".
+============================================================
+2. ESTRATEGIA DE EVOLUCIÓN E INNOVACIÓN (MATRIZ SCAMPER)
+============================================================
+Aplica las siguientes decisiones de diseño y negocio definidas por el equipo:
+${scamperBlock}
 
-2. SIMULADOR INTERACTIVO DE CAMISETA EN TIEMPO REAL (CORE FEATURE):
-   - Render vectorizado en SVG detallado de una camiseta de fútbol técnico.
-   - Controles dinámicos donde el usuario pueda:
-     a) Alternar 3 texturas de sublimación: Piel Celular Hass, Degradado Pulpa Neón, o Halftone Pop Art.
-     b) Escribir su nombre y dorsal para verlos actualizarse instantáneamente sobre la prenda en tiempo real.
-     c) Cambiar los colores de mangas y detalles de cuello entre la paleta oficial.
-     d) Botón para simular "Estampado en Prensa Térmica 200°C" con efecto de vapor/animación de calor.
+============================================================
+3. SÍNTESIS SEMIÓTICA & PENSAMIENTO LATERAL (SINÉCTICA)
+============================================================
+- Metáfora Conceptual: "${metaStr}"
+- Conexiones Semióticas Aplicadas:
+  "${conexionesStr}"
 
-3. STORYTELLING VISUAL & MATRIZ DE SEMIÓTICA Y MERCADEO:
-   - Sección interactiva en tarjetas explicando la conexión de los 4 elementos:
-     * El Aguacate como la nutrición y resistencia física del atleta.
-     * La Sublimación como el calor del estadio que fija la tinta para siempre en la fibra.
-     * El Mercadeo como la activación BTL ('Guacamole Truck' & personalización exprés en 60s en la tribuna).
-     * El Fútbol como el vehículo emocional supremo de identidad colectiva.
+============================================================
+4. IDENTIDAD DE MARCA & TEORÍA DEL ARTE APLICADA AL MARKETING
+============================================================
+- Arquetipo de Marca (Carl Jung / Mark & Pearson):
+  * ${arqObj.n}: ${arqObj.d}
+- Movimiento Artístico Referente:
+  * ${movObj.n}: ${movObj.d}
+- Paleta Cromática Semiótica Exacta:
+  * Color Base / Estructura: ${pal[0].hex} (${pal[0].name}) -> ${pal[0].desc}
+  * Color Acento / Vitalidad: ${pal[1].hex} (${pal[1].name}) -> ${pal[1].desc}
+  * Color Luz / Núcleo: ${pal[2].hex} (${pal[2].name}) -> ${pal[2].desc}
+  * Fondo Técnico / Sobriedad: ${pal[3].hex} (${pal[3].name}) -> ${pal[3].desc}
 
-4. ACTIVACIÓN DE MERCADEO DE GUERRILLA ("MATCHDAY EXPERIENCE"):
-   - Un simulador o mapa de experiencia de fan: desde la compra del boleto, la degustación de guacamole con el escudo de tu equipo, hasta la entrega de la camiseta sublimada al instante.
+============================================================
+5. REQUERIMIENTOS FUNCIONALES DE LA PÁGINA INTERACTIVA
+============================================================
+A) HERO SECTION DE IMPACTO:
+   - Título tipográfico imponente enfocado en "${brandStr}".
+   - Tagline visible: "${taglineStr}".
+   - Badge fluorescente animado que resalte: "${restriccionStr}".
+   - Botones CTA interactivos hacia el simulador y la pantalla flotante de control.
 
-5. ESTÉTICA VISUAL Y ACABADOS:
-   - Modo oscuro premium (Dark Mode de alta gama con contrastes verdes y dorados fluorescentes).
-   - Tipografías modernas de Google Fonts ('Space Grotesk' o 'Syne' + 'Plus Jakarta Sans').
-   - Animaciones fluidas al hover, microinteracciones y diseño 100% responsivo para móviles y desktop.
-   - Código limpio, semántico, accesible y sin librerías externas pesadas (todo con SVG y CSS/JS nativo).
+B) SIMULADOR DE PRODUCTO EN TIEMPO REAL (CORE INTERACTION):
+   - Gráfico vectorizado detallado en SVG del producto central (personalizable según la categoría: ${categoriaStr}).
+   - Valores iniciales cargados desde el formulario:
+     * Nombre activo en prenda: "${playerName}"
+     * Número / Identificador activo: "${dorsalNum}"
+     * Textura / Patrón visual inicial: "${patternType}"
+   - Controles dinámicos para que el usuario pueda editar en tiempo real el texto, alternar patrones y probar combinaciones de color de la paleta oficial (${pal.map(c => c.hex).join(', ')}).
 
-Genera el código HTML completo, listo para copiar, guardar como 'index.html' y abrir en cualquier navegador.`;
+C) PANTALLA FLOTANTE DE CONTROL INTERACTIVO CON BOTÓN DE ENCENDIDO (HUD):
+   - Ventana o terminal flotante ubicado en pantalla (dock/HUD) con indicador LED de estado.
+   - BOTÓN DE ENCENDIDO VERIFICADO (con ícono ⏻) que encienda/apague el sistema:
+     * Al encender: activa pantalla digital CRT de telemetría en tiempo real (indicador de temperatura, presión y estado operativo).
+     * Botón de acción térmica / activación en vivo que dispare efectos visuales de calor y vapor sobre el producto en el simulador.
+     * Al apagar: retorno a modo seguro / standby.
+
+D) STORYTELLING VISUAL & MATRIZ CONCEPTUAL:
+   - Cuadrícula interactiva que explique visualmente la resolución del reto creativo, conectando:
+     1) El origen del reto (${categoriaStr})
+     2) La solución aportada por la idea central ("${ideaElegidaStr}")
+     3) Los valores emocionales dirigidos a: ${publicoStr}
+     4) La filosofía estética inspirada en el movimiento ${movObj.n}.
+
+E) RITUAL DE EXPERIENCIA & ACTIVACIÓN DE MERCADEO:
+   - Flujo de interacción paso a paso (mínimo 4 etapas) que convierta la propuesta en una experiencia de usuario memorable.
+
+F) CRITERIO DE CALIDAD & CONCLUSIÓN DEL EQUIPO:
+   - Calificación de Innovación: Originalidad: ${state.scores.originalidad}/5 | Coherencia: ${state.scores.coherencia}/5 | Viabilidad: ${state.scores.aplicabilidad}/5.
+   - Conclusión Estratégica: "${conclusionStr}"
+
+============================================================
+6. ESPECIFICACIONES TÉCNICAS Y ACABADOS
+============================================================
+- Modo oscuro refinado (Dark Mode con tipografías Google Fonts 'Space Grotesk' + 'Plus Jakarta Sans').
+- 100% responsivo, animaciones suaves al hover, transiciones fluidas y microinteracciones.
+- Código limpio, semántico, accesible y completamente autocontenido en un solo archivo (sin dependencias externas pesadas).
+
+Genera el código HTML completo listo para copiar, guardar y ejecutar en el navegador.`;
 }
 
 function escapeHtml(str) {
   return str.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+}
+
+/* ----------------------------------------------------
+   APLICAR RETO COMBINADO MULTIDISCIPLINARIO
+---------------------------------------------------- */
+function applyRetoCombinado(r) {
+  if (!r) return;
+  state.reto = {
+    publico: r.publico,
+    categoria: r.categoria,
+    restriccion: r.restriccion
+  };
+  if (r.ideaSugerida) {
+    state.ideas = [r.ideaSugerida];
+    state.chosenIdea = r.ideaSugerida;
+  }
+  if (r.brandName) state.brandName = r.brandName;
+  if (r.tagline) state.tagline = r.tagline;
+  if (r.carta) state.carta = r.carta;
+  if (r.conexiones) state.conexiones = r.conexiones;
+  if (r.archetype) state.archetype = r.archetype;
+  if (r.styleMovement) state.styleMovement = r.styleMovement;
+  if (r.baseColor) {
+    state.baseColor = r.baseColor;
+    state.simParams.primaryColor = r.baseColor;
+  }
+  if (r.accentColor) {
+    state.accentColor = r.accentColor;
+    state.simParams.accentColor = r.accentColor;
+  }
+  if (r.yellowColor) state.yellowColor = r.yellowColor;
+  if (r.scamper) state.scamper = { ...r.scamper };
+  if (r.simParams) {
+    state.simParams = { ...state.simParams, ...r.simParams };
+  }
+  renderStage();
 }
 
 /* ----------------------------------------------------
@@ -1802,24 +2304,31 @@ function attachEvents() {
   const inpEquipo = document.getElementById("input-equipo");
   if (inpEquipo) inpEquipo.addEventListener("input", e => state.equipo = e.target.value);
 
-  /* FASE 1: Ideas y Reto */
+  /* FASE 1: Ideas y Reto Combinado */
+
   const btnCustomReto = document.getElementById("btn-custom-reto");
   if (btnCustomReto) {
     btnCustomReto.addEventListener("click", () => {
-      state.reto = { ...CASE_STUDY_DATA.reto };
-      renderStage();
+      applyRetoCombinado(RETOS_COMBINADOS[0]);
     });
   }
 
   const btnRandomReto = document.getElementById("btn-random-reto");
   if (btnRandomReto) {
     btnRandomReto.addEventListener("click", () => {
-      state.reto = {
-        publico: PUBLICOS[Math.floor(Math.random() * PUBLICOS.length)],
-        categoria: CATEGORIAS[Math.floor(Math.random() * CATEGORIAS.length)],
-        restriccion: RESTRICCIONES[Math.floor(Math.random() * RESTRICCIONES.length)]
-      };
-      renderStage();
+      const r = RETOS_COMBINADOS[Math.floor(Math.random() * RETOS_COMBINADOS.length)];
+      applyRetoCombinado(r);
+    });
+  }
+
+  const selectRetoCombinado = document.getElementById("select-reto-combinado");
+  if (selectRetoCombinado) {
+    selectRetoCombinado.addEventListener("change", (e) => {
+      const selectedId = e.target.value;
+      const found = RETOS_COMBINADOS.find(r => r.id === selectedId);
+      if (found) {
+        applyRetoCombinado(found);
+      }
     });
   }
 
@@ -1978,7 +2487,13 @@ function attachEvents() {
   if (btnPrint) btnPrint.addEventListener("click", () => window.print());
 
   const inpConclusion = document.getElementById("conclusion-text");
-  if (inpConclusion) inpConclusion.addEventListener("input", e => state.conclusion = e.target.value);
+  if (inpConclusion) {
+    inpConclusion.addEventListener("input", e => {
+      state.conclusion = e.target.value;
+      const promptBox = document.getElementById("prompt-text");
+      if (promptBox) promptBox.textContent = generateMasterPrompt();
+    });
+  }
 
   document.querySelectorAll("[data-score]").forEach(slider => {
     slider.addEventListener("input", e => {
@@ -1987,6 +2502,8 @@ function attachEvents() {
       const spanMap = { originalidad: "val-orig", coherencia: "val-cohe", aplicabilidad: "val-viab" };
       const span = document.getElementById(spanMap[key]);
       if (span) span.textContent = `${e.target.value}/5`;
+      const promptBox = document.getElementById("prompt-text");
+      if (promptBox) promptBox.textContent = generateMasterPrompt();
     });
   });
 
